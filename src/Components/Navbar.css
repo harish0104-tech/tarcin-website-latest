@@ -1,0 +1,145 @@
+.sec_pading {
+    padding: 2rem 5rem;
+    margin: 0;
+  }
+  .navbars{
+    margin: 0% !important;
+    overflow-x: hidden;
+
+  }
+  
+  
+  /* Nav.css */
+  .navbars ul {
+    width: 100vw;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: #000000;
+  }
+  
+  .navbars ul li {
+    list-style-type: none;
+  
+  }
+  
+  .navbars ul li .act {
+    color: #fff;
+  }
+  
+  .navbars ul li a {
+    text-decoration: none;
+    color: #AAAAAA;
+    font-size: 1.5rem
+  }
+  
+  .navbars ul li a:hover {
+    color: #fff;
+  }
+  .act{
+    font-weight: 750;
+  }
+  
+  .navbtn {
+    
+    background-color: #000000;
+   
+  }
+  
+  .navbtn ul {
+  
+    min-width: 90%;
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    justify-content: center;
+    background-color: #25292e;
+  }
+  
+  .navbtn ul li {
+    list-style-type: none;
+    padding: 5px;
+    margin-right: 20px;
+  
+  }
+  
+  .navbtn ul li .act {
+    color: #fff;
+  }
+  
+  .navbtn ul li a {
+    text-decoration: none;
+    color: #AAAAAA;
+    font-size: 16px;
+  }
+  
+  .navbtn ul li a:hover {
+    color: #fff;
+  }
+  
+  .navbtn {
+    display: none;
+    position: relative;
+   
+  
+  }
+  
+  .navmob {
+    position: absolute;
+    top: 60px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .scale-up-center {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+
+  @media(max-width:1000px) {
+    .sec_pading {
+      padding: 2rem 4rem;
+    }
+  
+    .sec_margin {
+      margin: 2rem 4rem;
+    }
+  
+    .print {
+      flex-direction: column;
+    }
+  
+    .imagec img {
+      width: 90%;
+      margin: auto 5%;
+    }
+  }
+  
+  @media(max-width:600px) {
+    .sec_pading {
+      padding: 1.5rem 1.3rem;
+    }
+  
+    .print {
+      margin: 2rem;
+    }
+  
+    .sec_margin {
+      margin: 1.5rem 1.3rem;
+    }
+  
+    .navbars {
+      display: none;
+    }
+  
+    .navbtn {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+      padding: 10px;
+      z-index: 1;
+  
+  
+    }
+  }

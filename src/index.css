@@ -1,0 +1,7 @@
+
+  @media (max-width: 767px) {
+    .design {
+      background-image: none; /* or background: none; */
+    }
+}
+
