@@ -2,12 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-
 import  AOS from 'aos';
 import 'aos/dist/aos.css';
-
-import Homepage from './Pages/Homepage';
-import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
 AOS.init();
